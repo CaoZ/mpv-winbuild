@@ -130,7 +130,6 @@ prepare() {
         cd ./release
         download_mpv_package
         cd ./mpv-packaging-master
-        7z x -y ./d3dcompiler*.7z
         cd ../..
     fi
 }
